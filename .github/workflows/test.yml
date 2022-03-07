@@ -14,7 +14,7 @@ jobs:
         go-version: 1.17.6
       id: go
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Build
       run: make GOFLAGS="-tags=netgo,nodocker" BUILD_IN_CONTAINER=false cmd/agent/agent cmd/agentctl/agentctl cmd/agent-operator/agent-operator
     - name: Test
