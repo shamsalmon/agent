@@ -12,7 +12,7 @@ require (
 	github.com/drone/envsubst/v2 v2.0.0-20210730161058-179042472c46
 	github.com/fatih/structs v1.1.0
 	github.com/go-kit/log v0.2.0
-	github.com/go-logfmt/logfmt v0.5.1
+	github.com/go-logfmt/logfmt v0.6.0
 	github.com/go-logr/logr v1.0.0
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gogo/protobuf v1.3.2
@@ -421,5 +421,3 @@ replace github.com/jaegertracing/jaeger => github.com/jaegertracing/jaeger v1.27
 
 // Replacement necessary for windows_exporter so that we can use gokit logging and not the old prometheus logging
 replace github.com/leoluk/perflib_exporter v0.1.0 => github.com/grafana/perflib_exporter v0.1.1-0.20211013152516-e37e14fb8b0a
-
-
