@@ -26,7 +26,7 @@ require (
 	github.com/hashicorp/consul/api v1.11.0
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/infinityworks/github-exporter v0.0.0-20201016091012-831b72461034
-	github.com/jsternberg/zap-logfmt v1.2.0
+	github.com/jsternberg/zap-logfmt v1.3.0
 	github.com/lib/pq v1.10.1
 	github.com/miekg/dns v1.1.43
 	github.com/mitchellh/reflectwalk v1.0.2
@@ -421,5 +421,3 @@ replace github.com/jaegertracing/jaeger => github.com/jaegertracing/jaeger v1.27
 
 // Replacement necessary for windows_exporter so that we can use gokit logging and not the old prometheus logging
 replace github.com/leoluk/perflib_exporter v0.1.0 => github.com/grafana/perflib_exporter v0.1.1-0.20211013152516-e37e14fb8b0a
-
-
