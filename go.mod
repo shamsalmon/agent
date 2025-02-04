@@ -77,7 +77,7 @@ require (
 	go.uber.org/atomic v1.9.0
 	go.uber.org/multierr v1.7.0
 	go.uber.org/zap v1.19.1
-	golang.org/x/sys v0.0.0-20211117180635-dee7805ff2e1
+	golang.org/x/sys v0.30.0
 	google.golang.org/grpc v1.42.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/yaml.v2 v2.4.0
@@ -421,5 +421,3 @@ replace github.com/jaegertracing/jaeger => github.com/jaegertracing/jaeger v1.27
 
 // Replacement necessary for windows_exporter so that we can use gokit logging and not the old prometheus logging
 replace github.com/leoluk/perflib_exporter v0.1.0 => github.com/grafana/perflib_exporter v0.1.1-0.20211013152516-e37e14fb8b0a
-
-
